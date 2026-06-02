@@ -1,0 +1,117 @@
+/* ===== BASE ===== */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background-color: #0d3b5e;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #cce4f7 !important;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* ===== HERO ===== */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1400&q=80") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.tours-bg {
+  background-color: #f0f6fb;
+}
+
+/* ===== DESTINATION CARDS ===== */
+.dest-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.dest-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ===== ACCORDION ===== */
+.accordion-button:not(.collapsed) {
+  background-color: #0d3b5e;
+  color: white;
+}
+
+.view-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0d3b5e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.view-link:hover {
+  text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+  background-color: #0d3b5e;
+  color: #cce4f7;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #7ecfff;
+}
